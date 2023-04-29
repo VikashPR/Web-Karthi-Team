@@ -36,3 +36,65 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }/*# sourceMappingURL=style.css.map */
+
+
+/* foter */
+footer {
+	background:#ffffff;
+	padding: 86px 0;
+}
+.row{
+  display: flex;
+  flex-direction:row;
+
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: black;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: black;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: black;
+}
+
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+.cp-text{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
