@@ -205,10 +205,14 @@ button {
   background-color: var(--secondary-color);
   width: 80%;
   height: 350px;
+  padding-left: 200px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 5px;
   box-shadow: 5px 10px 18px #888888;
+}
+.offer h2 {
+  padding-block: 10px;
 }
 
 .products {
