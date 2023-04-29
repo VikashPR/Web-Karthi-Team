@@ -305,3 +305,36 @@ footer {
         margin-bottom: 50px;
     }
 }
+
+
+.main-product{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+}
+.right{
+  width: 40%;
+}
+.left{
+  width: 60%;
+  /* text-align: center; */
+}
+.main-product-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  
+}
+.right-2{
+  width: 40%;
+}
+.left-2{
+  width: 60%;
+  /* text-align: center; */
+}
+.bttn-primary {
+  background-color:#fff;
+  color:var(--secondary-color);
+}
