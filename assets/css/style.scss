@@ -233,6 +233,20 @@ button {
         }
     }
 }
+// ======offer======
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    width: 80%;
+    height: 350px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px;
+    box-shadow: 5px 10px 18px #888888;
+
+}
 
 // ======Product======
 .products {

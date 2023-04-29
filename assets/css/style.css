@@ -198,6 +198,19 @@ button {
   letter-spacing: 1.3px;
 }
 
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--secondary-color);
+  width: 80%;
+  height: 350px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 5px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
 .products {
   display: flex;
   flex-direction: column;
@@ -313,51 +326,40 @@ footer {
   .single-box {
     margin-bottom: 50px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+.main-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+}
 
-.main-product{
+.right {
+  width: 40%;
+}
+
+.left {
+  width: 60%;
+  /* text-align: center; */
+}
+
+.main-product-2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--secondary-color);
 }
-.right{
+
+.right-2 {
   width: 40%;
 }
-.left{
+
+.left-2 {
   width: 60%;
   /* text-align: center; */
 }
-.main-product-2{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--secondary-color);
-  
-}
-.right-2{
-  width: 40%;
-}
-.left-2{
-  width: 60%;
-  /* text-align: center; */
-}
+
 .bttn-primary {
-  background-color:#fff;
-  color:var(--secondary-color);
-
-}
-
-.main-product-4{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: var(--secondary-color);
-  width: 80%;
-  height:350px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  box-shadow: 5px;
-  box-shadow: 5px 10px 18px #888888;
-
-}
+  background-color: #fff;
+  color: var(--secondary-color);
+}/*# sourceMappingURL=style.css.map */
