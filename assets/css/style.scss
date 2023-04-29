@@ -180,8 +180,17 @@ button {
         }
 
         .hero-banner {
+            position: relative;
             max-width: 600px;
             width: 50%;
+
+            i{
+                position:absolute;
+                top: 50%;
+                color: var(--secondary-color);
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
         }
     }
 
