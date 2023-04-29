@@ -1,5 +1,5 @@
 :root {
-  --primary-color:#fff;
+  --primary-color: #fff;
   --secondary-color: #AAB0F7;
   --primary-text: #000;
   --secondary-text: #fff;
@@ -35,4 +35,58 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.header .nav {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+.header .nav li {
+  margin-left: 20px;
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.header .nav li:hover {
+  transform: scale(1.01);
+}
+.header .nav li a {
+  color: var(--info-text);
+}
+.header .search-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .search-product .search-box {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  padding: 4px 7px;
+}
+.header .search-product .search-box input {
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--info-text);
+  background-color: transparent;
+}
+.header .search-product .search-product-img {
+  margin-inline: 10px;
+  width: 30px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,40 +1,107 @@
-:root{
+:root {
 
-    --primary-color:#fff;
+    --primary-color: #fff;
     --secondary-color: #AAB0F7;
     --primary-text: #000;
     --secondary-text: #fff;
     --info-text: #686868;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--primary-color);
     color: var(--primary-text);
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--primary-text);
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    .nav {
+        display: flex;
+        transition: all 0.3s ease-in-out;
+
+        li {
+            margin-left: 20px;
+            padding: 7px;
+            border-radius: 10px;
+            -webkit-box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.01);
+            }
+
+            a {
+                color: var(--info-text);
+            }
+        }
+    }
+
+    .search-product {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            -webkit-box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 4px 1px 10px 0px rgba(0, 0, 0, 0.75);
+            padding: 4px 7px;
+
+            input {
+                border: none;
+                outline: none;
+                padding: 7px;
+                border-radius: 10px;
+                font-size: 0.9rem;
+                font-weight: 500;
+                color: var(--info-text);
+                background-color: transparent;
+            }
+
+        }
+
+        .search-product-img {
+            margin-inline: 10px;
+            width: 30px;
+        }
+
+    }
+}
