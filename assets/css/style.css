@@ -156,8 +156,14 @@ button {
   border: var(--secondary-color) 2px solid;
 }
 .hero .hero-display .hero-banner {
+  position: relative;
   max-width: 600px;
   width: 50%;
+}
+.hero .hero-display .hero-banner i {
+  position: absolute;
+  top: 50%;
+  color: var(--secondary-color);
 }
 .hero .carousel-progress {
   margin-block: 35px;
